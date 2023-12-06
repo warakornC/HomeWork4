@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.para1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.box-pic {
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(137, 222, 222);
+    box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
+    -webkit-box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
+    -moz-box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
+    background-image: url() cover/center;
+}

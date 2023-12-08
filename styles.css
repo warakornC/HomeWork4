@@ -2,7 +2,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-size: 16px;
 }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* ทำสิ่งที่ต้องการเมื่อหน้าจอขนาดกลาง */
+    .para1 {
+        flex-direction: column;
+        min-width: 300px;
+    }
+  }
+  
+  body {
+    margin: auto;
+    width: 800px;
+  }
 
 header {
     display: flex;
@@ -27,10 +41,53 @@ a {
     
     height: 200px;
     width: 200px;
+    min-width: 200px;
+    min-width: 200px;
     border-radius: 50%;
     background-color: rgb(137, 222, 222);
     box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
     -webkit-box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
     -moz-box-shadow: -1px 13px 0px -5px rgba(137, 222, 222, 0.75);
     background-image: url() cover/center;
+    justify-content: end;
+}
+
+.dowload {
+    margin: auto;
+    color: white;
+    background-color: indianred;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.dowload-button {
+    display:flex ;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.med {
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    }
+
+.bix-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.sidebox{
+    background-color: white;
+    width: 250px;
+    height: 170px;
+    gap: 50px;
+}
+
+p4 {
+    font-size: 16px;
+    padding-top: 40px;
 }
